@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,38 +14,40 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Juan Pablo Méndez</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Educación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Portafolio</a>
-                    </li>
-                </ul>
-                <div>
-                    <p>Curriculum</p>
+    <div class="fixed-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Curriculum |||</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#educacion">Educación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="portafolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <p style="margin-bottom: 1px;">Juan Pablo Méndez</p>
+                        <p>pablochileidh@gmail.com</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <section>
-
+        </nav>
+    </div>
+    <div class="container-fluid menu" >
+        <section id="educacion">
             <div class="row bg-light">
                 <div class="col-md-12 text-center mt-2 mb-2">
-                    <h1>Educación</h1>
+                    <h1>Trayectoria Educativa</h1>
                 </div>
             </div>
             <div class="row">
@@ -100,42 +105,42 @@
                         <h3 class="subtitulo">Manejo de Lenguajes</h3>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 mt-5">
+                        <div class="col-md-4 mt-5 border rounded p-5">
                             <h4>html</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                            <div class="text-center" role="progressbar" aria-valuenow="80" aria-valuemin="0"
                                 aria-valuemax="100" style="--value:80">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-md-4 mt-5 border rounded p-5">
                             <h4>CSS</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100" style="--value:65">
+                            <div class="text-center" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="--value:70">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
-                            <h4>PHP</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100" style="--value:65">
+                        <div class="col-md-4 mt-5 border rounded p-5">
+                            <h4>JS</h4>
+                            <div class="text-center" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                aria-valuemax="100" style="--value:50">
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-5">
-                        <div class="col-md-4 mt-5">
-                            <h4>html</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100" style="--value:80">
+                    <div class="row">
+                        <div class="col-md-4 mt-5 border rounded p-5">
+                            <h4>GIT</h4>
+                            <div class="text-center" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="--value:70">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
-                            <h4>CSS</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100" style="--value:65">
+                        <div class="col-md-4 mt-5 border rounded p-5">
+                            <h4>Python</h4>
+                            <div class="text-center" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                aria-valuemax="100" style="--value:40">
                             </div>
                         </div>
-                        <div class="col-md-4 mt-5">
+                        <div class="col-md-4 mt-5 border rounded p-5">
                             <h4>PHP</h4>
-                            <div class="text-center" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100" style="--value:65">
+                            <div class="text-center" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                aria-valuemax="100" style="--value:70">
                             </div>
                         </div>
                     </div>
@@ -145,14 +150,52 @@
             </div>
 
         </section>
-        <footer>
-            <div class="row">
-                <div class="col-md-6 bg-warning">
-                    <h4>Juan Pablo Méndez</h4>
-                    <h4>pablochileidh@gmail.com</h4>
+        <section id="experiencia">
+            <div class="row bg-light mt-5">
+                <div class="col-md-12 text-center mt-2 mb-2">
+                    <h2>Experiencia</h2>
                 </div>
-                <div class="col-md-6 bg-light" id="fecha">
-                    <p>2023</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center mt-2 mb-2">
+                    <h5>En el transcurso de las tareas que he realizado he podido tener una percepción de mis
+                        habilidades y áreas de oportunidad, mensionando las siguientes cualidades:</h5>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-3 text-center mb-4">
+                        <i class="fa-solid fa-pencil "></i>
+                        <h5>Creatividad</h5>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <i class="fa-solid fa-clock"></i>
+                        <h5>Disiplina</h5>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <i class="fa-solid fa-users-line"></i>
+                        <h5>Integración grupal</h5>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <h5>Metodología de trabajo</h5>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6 text-center mb-4">
+                        <i class="fa-solid fa-forward"></i>
+                        <h5>Proactividad</h5>
+                    </div>
+                    <div class="col-md-6 text-center mb-4">
+                        <i class="fa-solid fa-chess"></i>
+                        <h5>Habilidades resolutivas</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row bg-warning">
+                <div class="col-md-12  pt-3 text-center">
+                    <p>Juan Pablo Méndez <i class="fa-solid fa-earth-americas"></i> | <strong
+                            id="current_date"></strong></p>
                 </div>
             </div>
         </footer>
@@ -160,6 +203,11 @@
 
 
     </div>
+    <script>
+        date = new Date();
+        year = date.getFullYear();
+        document.getElementById("current_date").innerHTML = year;
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
