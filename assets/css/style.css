@@ -128,3 +128,9 @@ div[role="progressbar"]::before {
   counter-reset: percentage var(--value);
   content: counter(percentage) "%";
 }
+
+/* Estilos para hover en menu  */
+
+.bordesNegros:hover {
+  border: 2px solid #212529;
+}
