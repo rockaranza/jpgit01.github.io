@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   var progressBar = document.querySelectorAll(".progress-bar");
-  const time = 1500;
+  const time = 1000;
 
   function calculateTime(time, dataCount) {
     return time / dataCount;
