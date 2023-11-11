@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let dataCount = label.getAttribute("data-count");
     let lineCount = line.children[0];
 
-    let value = line.style.width.substr(0, line.style.width.length - 2) / 100;
+    let value = line.style.width.substr(0, line.style.width.length - 2) / 150;
     let runTime = calculateTime(time, dataCount);
 
     let animationLineCount = setInterval(function () {
